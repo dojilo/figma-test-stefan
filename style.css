@@ -1,0 +1,875 @@
+:root {
+  --ylw: #ffd900;
+  --pnk: #dd71c6;
+  --gry: #f9f9f9;
+  --blu: #73c3f4;
+}
+
+h1 {
+  font-size: 46px;
+  color: #333;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 67px;
+  padding-right: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Montserrat;
+  color: #333;
+  margin-bottom: 23px;
+  line-height: 25px;
+}
+
+.upper-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upper-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.upper-header-right li {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: Montserrat;
+  padding-left: 0;
+  margin-left: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sign-in {
+  border: 1px solid #dd71c6;
+  padding-left: 12px;
+  min-height: 40px;
+  min-width: 120px;
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.cart-icon {
+  height: 50px;
+  width: 50px;
+  background: #dd71c6;
+  display: inline-flex;
+  border-radius: 30px;
+}
+
+.cart-icon img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  object-fit: contain;
+}
+
+.countPill {
+  position: relative;
+  top: -18px;
+  color: #000;
+  left: -27px;
+  width: 16px;
+  height: 16px;
+  background: #ffd900;
+  font-size: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.form-input {
+  appearance: none;
+  background-color: #fff;
+  border-color: #dd71c6;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  color: #000;
+  display: block;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 1rem;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  width: 170%;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.lower-header-ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lower-header-ul li {
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.left {
+  position: relative;
+  top: 22%;
+  left: 16%;
+}
+
+.header-pic {
+  padding: 200px 0;
+  background: url("images/header_img.png");
+  background-size: cover;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.qualities {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  margin: 0;
+  list-style: none;
+  min-height: 140px;
+}
+
+li {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.products {
+  background-color: var(--pnk);
+  padding: 120px 0;
+  position: relative;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1920px;
+  width: 90%;
+}
+
+.product-cards {
+  background-color: var(--pnk);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.products .wrapper {
+  margin: auto;
+  max-width: 1000px;
+  width: 90%;
+}
+
+.product-card {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  background-color: #ffffff;
+  margin: 0 0 84px 0;
+  justify-content: center;
+  height: 348px;
+  width: 293px;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+}
+
+.products .svg01 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.products .svg02 {
+  position: absolute;
+  right: 0px;
+}
+
+.products .svg03 {
+  position: absolute;
+  left: -53%;
+  top: 30%;
+  z-index: 20;
+  width: 100%;
+}
+
+.price {
+  background-color: var(--gry);
+  padding: 50px 0;
+  position: relative;
+}
+
+.price-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  background-color: #ffffff;
+  margin: 0 0 84px 0;
+  width: 313px;
+  height: 429px;
+  left: 302px;
+  top: 2246px;
+  box-shadow: 0px 4px 35px rgba(51, 51, 51, 0.05);
+  margin-bottom: 0;
+}
+
+.price-img {
+  width: 100%;
+  padding: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(115, 195, 244, 0.07) 0,
+    rgba(115, 195, 244, 0) 99.99%
+  );
+  position: relative;
+}
+
+.pink-bold-price {
+  text-align: center;
+  color: var(--pnk);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #333;
+  display: inline-block;
+}
+
+.quiz {
+  padding: 200px 0;
+  background: url("images/products/Group751.png");
+  background-size: cover;
+}
+
+.quiz .wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bold-quiz {
+  text-align: center;
+  width: 634px;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 160%;
+  color: #303030;
+}
+
+.btn-pink {
+  color: white;
+  background-color: var(--pnk);
+  padding: 10px 50px;
+  text-decoration: none;
+  width: 100%;
+  max-width: 220px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-ylw {
+  background-color: var(--ylw);
+}
+
+.specials {
+  background-color: var(--blu);
+  padding: 100px 0;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px 0;
+}
+
+.specials .wrapper .section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-specials {
+  display: flex;
+  flex-direction: column;
+}
+
+h2.section-title {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 160%;
+  color: #333;
+}
+
+h5 {
+  font-size: 32px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+  line-height: 52px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.specials p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat;
+  display: inline-block;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+
+.newsletter {
+  min-height: 325px;
+  text-align: center;
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  margin-top: -25px;
+  position: relative;
+}
+
+.newsletter h3 {
+  font-size: 16px;
+  font-family: Montserrat;
+  color: #333;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.subscribe {
+  font-size: 45px;
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  color: #333;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 67px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.mail-input {
+  max-width: 400px;
+  display: inline-block;
+  width: 100%;
+  margin-right: 20px;
+  border: 1px solid #ececec;
+  font-family: inherit;
+  border-radius: 4px;
+}
+
+.mail .btn-pink {
+  border-radius: 4px;
+}
+
+.footer {
+  padding: 117px 0 0;
+  background: --gry;
+  border-top: 1px solid #999;
+  padding: 3rem 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+.logo {
+  max-height: none;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+.rows {
+  display: grid;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 50px 50px;
+}
+
+.text-justify {
+  margin: 0;
+  font-size: 16px;
+  max-width: 280px;
+  line-height: 25px;
+  font-family: Montserrat;
+  margin-bottom: 45px;
+  color: #333;
+}
+
+.footer h6 {
+  font-size: 24px;
+  font-family: "Libre Baskerville";
+  color: #000;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.footer li {
+  font-size: 16px;
+  font-family: Montserrat;
+  color: #333;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.footer ul {
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.contact-info b {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: #333;
+}
+
+.contact-info h7 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Montserrat;
+  margin-left: 33px;
+  margin-bottom: 0;
+  position: absolute;
+}
+
+i.fas {
+  font-size: 20px;
+  color: #dd71c6;
+  margin-right: 15px;
+  font-weight: 900;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.location {
+  margin-bottom: 60px;
+}
+
+.phone {
+  margin-top: 30px;
+}
+
+.social {
+  margin-top: 30px;
+}
+
+.social a {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  background: #dd71c6;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  border-radius: 30px;
+}
+
+.social a i.fab {
+  font-size: 15px;
+  color: #fff;
+}
+
+nav.mobile-nav {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Z */
+
+#menu-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#menu-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  background-color: var(--gry);
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 200;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1280px) {
+  nav.mobile-nav {
+    display: none;
+  }
+
+  .product-card {
+    width: 40%;
+  }
+  .specials .wrapper .section-title {
+    flex-direction: column;
+  }
+  .newsletter form input {
+    width: 100%;
+  }
+
+  .price-card {
+    width: 20%;
+  }
+}
+
+@media (max-width: 780px) {
+  nav {
+    display: none;
+  }
+
+  nav.mobile-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+  }
+
+  .lower-header-ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-menu ul li {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .header-pic {
+    background-image: url("/images/header_img_sml.png");
+    padding: 20px 0 250px;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .left {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 50%;
+    padding: 20px 0 50px;
+    width: 90%;
+  }
+
+  .product-card {
+    width: 70%;
+    height: 70%;
+  }
+
+  .product-cards {
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+  }
+
+  .price-card {
+    margin: 0 0 40px 0;
+    width: 80%;
+    height: 90%;
+  }
+
+  .qualities {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+  .qualities li {
+    margin-bottom: 25px;
+  }
+
+  .quiz {
+    padding: 200px 0;
+    background: url(images/quiz-mobile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 537px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 53px;
+  }
+
+  .bold-quiz {
+    width: 100%;
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    text-align: center;
+    color: #303030;
+  }
+
+  .quiz .btn-pink {
+    display: inline-flex;
+    width: 80%;
+    max-width: 204px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .quiz .wrapper {
+    margin: 0;
+  }
+
+  .specials h5 {
+    font-size: 27px;
+    line-height: 35px;
+  }
+
+  .specials p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    color: #fff;
+    display: inline-block;
+  }
+
+  .btn-ylw {
+    display: inline-flex;
+    width: 80%;
+    max-width: 204px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .newsletter {
+    margin-top: 20px;
+    min-height: 325px;
+    text-align: center;
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background: #fff;
+    position: relative;
+  }
+
+  .subscribe {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .mail-input {
+    max-width: 242px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .mail .btn-pink {
+    max-width: 184px;
+    margin-top: 20px;
+  }
+
+  .rows {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .col1 .col2 .col3 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .col2 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .col3 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .col4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
